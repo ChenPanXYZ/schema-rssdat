@@ -1,0 +1,9 @@
+fastapi
+supabase
+pylatexenc
+pandas
+sentence_transformers
+cohere
+openai
+huggingface-hub
+google-genai==1.60.0

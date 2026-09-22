@@ -1,0 +1,15 @@
+{
+    "host": "0.0.0.0",
+    "port": 34567,
+    "models": [
+        {
+            "model": "/workspace/models/Meta-Llama-3.1-8B-Instruct.Q6_K.gguf",
+            "model_alias": "llama-8b",
+            "n_gpu_layers": -1,
+            "offload_kqv": true,
+            "n_threads": 4,
+            "n_batch": 512,
+            "n_ctx": 25600
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "host": "0.0.0.0",
+    "port": 34568,
+    "models": [
+        {
+            "model": "/workspace/models/Qwen3-8B-Q6_K.gguf",
+            "model_alias": "qwen-8b",
+            "n_gpu_layers": -1,
+            "offload_kqv": true,
+            "n_threads": 4,
+            "n_ctx": 25600,
+            "n_batch": 2048
+        }
+    ]
+}
